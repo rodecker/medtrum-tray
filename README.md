@@ -23,10 +23,10 @@ These scripts display glucose status from [Medtrum](https://www.medtrum.com/) se
 ### Windows
 
 * Download `sugar.ps1` and configure your credentials
-* Download the [jq](https://github.com/jqlang/jq/releases/) windows executable and place it in the same directory
+* Download the [jq](https://github.com/jqlang/jq/releases/) windows executable and place it in the same directory, renamed to `jq.exe`
 * Open the Windows Task Scheduler (taskschd.msc) and create a Task (not a Basic Task)
   * Program: `powershell.exe`
-  * Arguments: `-WindowStyle hidden -ExecutionPolicy Bypass -File "C:\path\to\sugar.ps1`
+  * Arguments: `-WindowStyle hidden -ExecutionPolicy Bypass -File "C:\path\to\sugar.ps1"`
   * Select _Run only when user is logged on_
   * Deselect _Start the task only if the computer is on AC power_ and _Stop if the computer switches to battery power_
 
