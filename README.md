@@ -6,8 +6,11 @@ These scripts display glucose status from [Medtrum](https://www.medtrum.com/) se
 
 ### Prerequisites
 
-* Create a [Medtrum Easy View](https://easyview.medtrum.eu/v3/#/login/login) account
-* Add a Connection to the Username/Email of the Medtrum user you wish to follow (they will need to accept this)
+A Medtrum account cannot be logged in on multiple devices at the same time. You will need a separate account to run these scripts.
+
+* Create a new [Medtrum Easy View](https://easyview.medtrum.eu/v3/#/login/login) account
+* Add a Connection to the Username/Email of your existing Medtrum user account
+* Accept the follower request from the new user in the EasyPatch app
 
 ### OSX
 
